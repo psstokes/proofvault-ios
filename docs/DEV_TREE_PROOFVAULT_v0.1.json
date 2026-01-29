@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "version": "v0.1",
+    "note": "Placeholder skeleton. Full DEV_TREE spec will be pasted in a later PR if needed."
+  },
+  "vision": {
+    "statement": "",
+    "principles": []
+  },
+  "scope": {
+    "in": [],
+    "out": []
+  },
+  "journeys": [],
+  "data_model": {
+    "entities": [],
+    "relationships": []
+  },
+  "quality_gates": {
+    "pipeline": [],
+    "ux": [],
+    "privacy": []
+  },
+  "milestones": []
+}
