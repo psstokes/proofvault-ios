@@ -11,6 +11,11 @@
 		F4D9AA6B2F2A7BE7003A453F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9AA6A2F2A7BE7003A453F /* ContentView.swift */; };
 		F4D9AA6D2F2A7BE9003A453F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D9AA6C2F2A7BE9003A453F /* Assets.xcassets */; };
 		F4D9AA702F2A7BE9003A453F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D9AA6F2F2A7BE9003A453F /* Preview Assets.xcassets */; };
+		F4D9AA812F2BEB59003A453F /* VaultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9AA802F2BEB59003A453F /* VaultItem.swift */; };
+		F4D9AA832F2BEB67003A453F /* VaultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9AA822F2BEB67003A453F /* VaultStore.swift */; };
+		F4D9AA852F2BEB7D003A453F /* VaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9AA842F2BEB7D003A453F /* VaultView.swift */; };
+		F4D9AA872F2BEB8A003A453F /* UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9AA862F2BEB8A003A453F /* UIComponents.swift */; };
+		F4D9AA892F2BEB94003A453F /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9AA882F2BEB94003A453F /* AddItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F4D9AA6A2F2A7BE7003A453F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4D9AA6C2F2A7BE9003A453F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D9AA6F2F2A7BE9003A453F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4D9AA802F2BEB59003A453F /* VaultItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaultItem.swift; sourceTree = "<group>"; };
+		F4D9AA822F2BEB67003A453F /* VaultStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaultStore.swift; sourceTree = "<group>"; };
+		F4D9AA842F2BEB7D003A453F /* VaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaultView.swift; sourceTree = "<group>"; };
+		F4D9AA862F2BEB8A003A453F /* UIComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIComponents.swift; sourceTree = "<group>"; };
+		F4D9AA882F2BEB94003A453F /* AddItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,11 @@
 		F4D9AA672F2A7BE7003A453F /* PrroofVault */ = {
 			isa = PBXGroup;
 			children = (
+				F4D9AA882F2BEB94003A453F /* AddItemView.swift */,
+				F4D9AA862F2BEB8A003A453F /* UIComponents.swift */,
+				F4D9AA842F2BEB7D003A453F /* VaultView.swift */,
+				F4D9AA822F2BEB67003A453F /* VaultStore.swift */,
+				F4D9AA802F2BEB59003A453F /* VaultItem.swift */,
 				F4D9AA682F2A7BE7003A453F /* PrroofVaultApp.swift */,
 				F4D9AA6A2F2A7BE7003A453F /* ContentView.swift */,
 				F4D9AA6C2F2A7BE9003A453F /* Assets.xcassets */,
@@ -137,6 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D9AA832F2BEB67003A453F /* VaultStore.swift in Sources */,
+				F4D9AA872F2BEB8A003A453F /* UIComponents.swift in Sources */,
+				F4D9AA892F2BEB94003A453F /* AddItemView.swift in Sources */,
+				F4D9AA852F2BEB7D003A453F /* VaultView.swift in Sources */,
+				F4D9AA812F2BEB59003A453F /* VaultItem.swift in Sources */,
 				F4D9AA6B2F2A7BE7003A453F /* ContentView.swift in Sources */,
 				F4D9AA692F2A7BE7003A453F /* PrroofVaultApp.swift in Sources */,
 			);
