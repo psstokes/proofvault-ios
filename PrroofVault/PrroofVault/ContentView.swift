@@ -15,5 +15,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .environmentObject(VaultStore())
+        .environmentObject(VaultStore.mock())
 }
